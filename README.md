@@ -1,6 +1,6 @@
-# VSTS Process Migrator for Node.js
+# Azure DevOps (AzDO) Process Migrator for Node.js
 
-This application provide you ability to automate the [Process](https://docs.microsoft.com/en-us/vsts/work/customize/process/manage-process?view=vsts) export/import across VSTS accounts through Node.js CLI.
+This application provide you ability to automate the [Process](https://docs.microsoft.com/en-us/azure/devops/organizations/settings/work/manage-process?view=azure-devops) export/import across AzDO organizations through Node.js CLI.
 
 NOTE: This only works with 'Inherited Process', for 'XML process' you may upload/download process as ZIP. 
  
