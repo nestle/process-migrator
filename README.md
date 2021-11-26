@@ -1,20 +1,21 @@
-# VSTS Process Migrator for Node.js
+# Azure DevOps (AzDO) Process Migrator for Node.js
 
-This application provide you ability to automate the [Process](https://docs.microsoft.com/en-us/vsts/work/customize/process/manage-process?view=vsts) export/import across VSTS accounts through Node.js CLI.
+This application provides you with the ability to automate the [Process](https://docs.microsoft.com/en-us/azure/devops/organizations/settings/work/manage-process?view=azure-devops) export/import across AzDO organizations through Node.js CLI.
 
-NOTE: This only works with 'Inherited Process', for 'XML process' you may upload/download process as ZIP. 
- 
-# Getting Started
+NOTE: This only works with 'Inherited Process', for 'XML process' you may upload/download process as ZIP.
 
-## Run
+## Getting Started
+
+### Run
 
 - Install npm if not yet - [link](https://www.npmjs.com/get-npm)
-- Install this package through `npm install process-migrator -g` 
+- Install this package through `npm install process-migrator -g`
 - Create and fill required information in config file *configuration.json*. See [document section](#documentation) for details
 
    Just run ```process-migrator``` without any argument will create the file if it does not exist.
 
-   ##### ![](https://imgplaceholder.com/100x17/cccccc/fe2904?text=WARNING&font-size=15) CONFIGURATION FILE HAS PAT, RIGHT PROTECT IT !
+:exclamation: CONFIGURATION FILE HAS PAT, SECURE IT CORRECTLY :exclamation:
+
 - Run `process-migrator [--mode=<migrate(default)/import/export> [--config=<your-configuration-file-path>]`
   
 ## Contribute
@@ -24,11 +25,16 @@ NOTE: This only works with 'Inherited Process', for 'XML process' you may upload
 - Execute through `node build\nodejs\nodejs\main.js <args>`
 
 ## Documentation
-##### Command line parameters
+
+### Command line parameters
+
 - --mode: Optional, default as 'migrate'. Mode of the execution, can be 'migrate' (export and then import), 'export' (export only) or 'import' (import only).
 - --config: Optional, default as './configuration.json'. Specify the configuration file.
-##### Configuration file structure
-- This file is in [JSONC](https://github.com/Microsoft/node-jsonc-parser) format, you don't have to remove comments lines for it to work. 
+
+### Configuration file structure
+
+- This file is in [JSONC](https://github.com/Microsoft/node-jsonc-parser) format, you don't have to remove comment lines for it to work.
+
 ``` json
 {
     "sourceAccountUrl": "Source account url. Required in export/migrate mode, ignored in import mode. ",
@@ -48,7 +54,8 @@ NOTE: This only works with 'Inherited Process', for 'XML process' you may upload
 }
 ```
 
-##### Notes 
+## Notes
+
 - If extensions used by source account are not available in target account, import MAY fail
    1) Control/Group/Page contributions on work item form are by default imported, so it will fail if the extension is not available on target account. use 'skipImportFormContributions' option to skip importing custom controls.
 - If identities used in field default value or rules are not available in target account, import WILL fail
