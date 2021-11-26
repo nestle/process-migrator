@@ -1,6 +1,6 @@
 # Azure DevOps (AzDO) Process Migrator for Node.js
 
-This application provide you ability to automate the [Process](https://docs.microsoft.com/en-us/azure/devops/organizations/settings/work/manage-process?view=azure-devops) export/import across AzDO organizations through Node.js CLI.
+This application provides you with the ability to automate the [Process](https://docs.microsoft.com/en-us/azure/devops/organizations/settings/work/manage-process?view=azure-devops) export/import across AzDO organizations through Node.js CLI.
 
 NOTE: This only works with 'Inherited Process', for 'XML process' you may upload/download process as ZIP.
 
@@ -14,7 +14,7 @@ NOTE: This only works with 'Inherited Process', for 'XML process' you may upload
 
    Just run ```process-migrator``` without any argument will create the file if it does not exist.
 
-CONFIGURATION FILE HAS PAT, RIGHT PROTECT IT !
+:exclamation: CONFIGURATION FILE HAS PAT, SECURE IT CORRECTLY :exclamation:
 
 - Run `process-migrator [--mode=<migrate(default)/import/export> [--config=<your-configuration-file-path>]`
   
@@ -33,7 +33,7 @@ CONFIGURATION FILE HAS PAT, RIGHT PROTECT IT !
 
 ### Configuration file structure
 
-- This file is in [JSONC](https://github.com/Microsoft/node-jsonc-parser) format, you don't have to remove comments lines for it to work.
+- This file is in [JSONC](https://github.com/Microsoft/node-jsonc-parser) format, you don't have to remove comment lines for it to work.
 
 ``` json
 {
