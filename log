@@ -1,0 +1,738 @@
+[INFORMATION] [2023-04-12T14:39:45.266Z] Full log is sent to '/workspaces/process-migrator/log' 
+[VERBOSE] [2023-04-12T14:39:45.270Z] Keyboard listener added
+[VERBOSE] [2023-04-12T14:39:45.270Z] Begin step 'Get rest client on source account 'https://dev.azure.com/nestle-it''.
+[VERBOSE] [2023-04-12T14:39:45.510Z] Finished step 'Get rest client on source account 'https://dev.azure.com/nestle-it''.
+[INFORMATION] [2023-04-12T14:39:45.511Z] Export process started.
+[VERBOSE] [2023-04-12T14:39:45.511Z] Begin step 'Get source process Id from name'.
+[VERBOSE] [2023-04-12T14:39:45.562Z] Finished step 'Get source process Id from name'.
+[VERBOSE] [2023-04-12T14:39:45.562Z] Begin step 'Get artifacts from source process'.
+[VERBOSE] [2023-04-12T14:39:46.969Z] Finished step 'Get artifacts from source process'.
+[INFORMATION] [2023-04-12T14:39:46.969Z] Export process completed.
+[VERBOSE] [2023-04-12T14:39:46.970Z] Begin step 'Write process payload to file'.
+[VERBOSE] [2023-04-12T14:39:46.978Z] Finished step 'Write process payload to file'.
+[INFORMATION] [2023-04-12T14:39:46.978Z] Export process completed successfully to '/workspaces/process-migrator/FUSE-Software-Delivery.json'.
+[VERBOSE] [2023-04-12T14:39:46.978Z] Begin step 'Get rest client on target account 'https://dev.azure.com/nestle-devtest''.
+[VERBOSE] [2023-04-12T14:39:47.229Z] Finished step 'Get rest client on target account 'https://dev.azure.com/nestle-devtest''.
+[INFORMATION] [2023-04-12T14:39:47.230Z] Process import started.
+[VERBOSE] [2023-04-12T14:39:47.230Z] Begin step 'Pre-import validation on target account'.
+[VERBOSE] [2023-04-12T14:39:47.230Z] Begin step 'Validate process existence on target account'.
+[VERBOSE] [2023-04-12T14:39:47.230Z] Begin step 'Get processes on target account'.
+[VERBOSE] [2023-04-12T14:39:47.269Z] Finished step 'Get processes on target account'.
+[VERBOSE] [2023-04-12T14:39:47.269Z] Finished step 'Validate process existence on target account'.
+[VERBOSE] [2023-04-12T14:39:47.269Z] Begin step 'Validate fields on target account'.
+[VERBOSE] [2023-04-12T14:39:47.269Z] Begin step 'Get fields on target account'.
+[VERBOSE] [2023-04-12T14:39:47.373Z] Finished step 'Get fields on target account'.
+[VERBOSE] [2023-04-12T14:39:47.376Z] Finished step 'Validate fields on target account'.
+[VERBOSE] [2023-04-12T14:39:47.376Z] Begin step 'Validate picklists on target account'.
+[VERBOSE] [2023-04-12T14:39:47.376Z] Finished step 'Validate picklists on target account'.
+[VERBOSE] [2023-04-12T14:39:47.377Z] Finished step 'Pre-import validation on target account'.
+[VERBOSE] [2023-04-12T14:39:47.377Z] Begin step 'Create process on target account'.
+[VERBOSE] [2023-04-12T14:39:47.377Z] Begin step 'Create process 'FUSE-Software-Delivery-latest''.
+[VERBOSE] [2023-04-12T14:39:47.656Z] Finished step 'Create process 'FUSE-Software-Delivery-latest''.
+[VERBOSE] [2023-04-12T14:39:47.656Z] Finished step 'Create process on target account'.
+[VERBOSE] [2023-04-12T14:39:47.656Z] Begin step 'Create artifacts on target process'.
+[VERBOSE] [2023-04-12T14:39:47.657Z] Begin step 'Import picklists on target account'.
+[VERBOSE] [2023-04-12T14:39:47.657Z] Begin step 'Create picklist for field Custom.BlockedRootCause'.
+[VERBOSE] [2023-04-12T14:39:47.732Z] Finished step 'Create picklist for field Custom.BlockedRootCause'.
+[VERBOSE] [2023-04-12T14:39:47.732Z] Begin step 'Create picklist for field Custom.RiskLevel'.
+[VERBOSE] [2023-04-12T14:39:47.779Z] Finished step 'Create picklist for field Custom.RiskLevel'.
+[VERBOSE] [2023-04-12T14:39:47.780Z] Begin step 'Create picklist for field Custom.Prioritisation'.
+[VERBOSE] [2023-04-12T14:39:47.817Z] Finished step 'Create picklist for field Custom.Prioritisation'.
+[VERBOSE] [2023-04-12T14:39:47.818Z] Begin step 'Create picklist for field Custom.TestingPhase'.
+[VERBOSE] [2023-04-12T14:39:47.851Z] Finished step 'Create picklist for field Custom.TestingPhase'.
+[VERBOSE] [2023-04-12T14:39:47.851Z] Begin step 'Create picklist for field Custom.RootCause'.
+[VERBOSE] [2023-04-12T14:39:47.941Z] Finished step 'Create picklist for field Custom.RootCause'.
+[VERBOSE] [2023-04-12T14:39:47.943Z] Begin step 'Create picklist for field Custom.RootSource'.
+[VERBOSE] [2023-04-12T14:39:48.007Z] Finished step 'Create picklist for field Custom.RootSource'.
+[VERBOSE] [2023-04-12T14:39:48.007Z] Begin step 'Create picklist for field Custom.DetectedonEnvironment'.
+[VERBOSE] [2023-04-12T14:39:48.039Z] Finished step 'Create picklist for field Custom.DetectedonEnvironment'.
+[VERBOSE] [2023-04-12T14:39:48.039Z] Finished step 'Import picklists on target account'.
+[VERBOSE] [2023-04-12T14:39:48.039Z] Begin step 'Import fields on target account'.
+[VERBOSE] [2023-04-12T14:39:48.040Z] Begin step 'Get fields to be created on target process'.
+[VERBOSE] [2023-04-12T14:39:48.141Z] Finished step 'Get fields to be created on target process'.
+[VERBOSE] [2023-04-12T14:39:48.142Z] Begin step 'Create field 'Custom.ObjectiveScore''.
+[VERBOSE] [2023-04-12T14:39:48.201Z] Finished step 'Create field 'Custom.ObjectiveScore''.
+[VERBOSE] [2023-04-12T14:39:48.201Z] Begin step 'Create field 'Custom.ActualOutcome''.
+[VERBOSE] [2023-04-12T14:39:48.377Z] Finished step 'Create field 'Custom.ActualOutcome''.
+[VERBOSE] [2023-04-12T14:39:48.377Z] Begin step 'Create field 'Custom.ExpectedOutcome''.
+[VERBOSE] [2023-04-12T14:39:48.495Z] Finished step 'Create field 'Custom.ExpectedOutcome''.
+[VERBOSE] [2023-04-12T14:39:48.495Z] Begin step 'Create field 'Custom.322da551-0c2d-43f8-a77f-4e9bc60169a2''.
+[VERBOSE] [2023-04-12T14:39:48.624Z] Finished step 'Create field 'Custom.322da551-0c2d-43f8-a77f-4e9bc60169a2''.
+[VERBOSE] [2023-04-12T14:39:48.625Z] Finished step 'Import fields on target account'.
+[VERBOSE] [2023-04-12T14:39:48.625Z] Begin step 'Import work item types on target process'.
+[VERBOSE] [2023-04-12T14:39:51.301Z] Finished step 'Import work item types on target process'.
+[VERBOSE] [2023-04-12T14:39:51.301Z] Begin step 'Add field to work item types on target process'.
+[VERBOSE] [2023-04-12T14:39:51.301Z] Begin step 'Add field 'System.State' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:51.636Z] Finished step 'Add field 'System.State' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:51.636Z] Begin step 'Updated field 'System.State' with default value to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:51.963Z] Finished step 'Updated field 'System.State' with default value to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:51.963Z] Begin step 'Add field 'System.Reason' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.065Z] Finished step 'Add field 'System.Reason' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.065Z] Begin step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.176Z] Finished step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.176Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.268Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.268Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.325Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.325Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.405Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.405Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.538Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.538Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.717Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.717Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.788Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.789Z] Begin step 'Add field 'Microsoft.VSTS.Common.AcceptanceCriteria' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.852Z] Finished step 'Add field 'Microsoft.VSTS.Common.AcceptanceCriteria' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.853Z] Begin step 'Add field 'Custom.PairedWith1' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.918Z] Finished step 'Add field 'Custom.PairedWith1' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.919Z] Begin step 'Add field 'Custom.PairedWith2' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.992Z] Finished step 'Add field 'Custom.PairedWith2' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:52.992Z] Begin step 'Add field 'Custom.BlockedRootCause' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:53.071Z] Finished step 'Add field 'Custom.BlockedRootCause' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:53.072Z] Begin step 'Add field 'Custom.Prioritisation' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:53.131Z] Finished step 'Add field 'Custom.Prioritisation' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:53.132Z] Begin step 'Add field 'Custom.RiskLevel' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:53.282Z] Finished step 'Add field 'Custom.RiskLevel' to work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:39:53.283Z] Begin step 'Add field 'System.State' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:53.355Z] Finished step 'Add field 'System.State' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:53.355Z] Begin step 'Updated field 'System.State' with default value to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:53.480Z] Finished step 'Updated field 'System.State' with default value to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:53.480Z] Begin step 'Add field 'System.Reason' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:53.547Z] Finished step 'Add field 'System.Reason' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:53.547Z] Begin step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:53.617Z] Finished step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:53.617Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:53.678Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:53.678Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:53.843Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:53.843Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:53.998Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:53.998Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:54.084Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:54.084Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:54.148Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:54.148Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:54.207Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:39:54.207Z] Begin step 'Add field 'Custom.PairedWith1' to work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:39:54.262Z] Finished step 'Add field 'Custom.PairedWith1' to work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:39:54.263Z] Begin step 'Add field 'Custom.PairedWith2' to work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:39:54.327Z] Finished step 'Add field 'Custom.PairedWith2' to work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:39:54.327Z] Begin step 'Add field 'Custom.ReflectedWorkItemId' to work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:39:54.494Z] Finished step 'Add field 'Custom.ReflectedWorkItemId' to work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:39:54.494Z] Begin step 'Add field 'Custom.BlockedRootCause' to work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:39:54.563Z] Finished step 'Add field 'Custom.BlockedRootCause' to work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:39:54.563Z] Begin step 'Updated field 'Custom.BlockedRootCause' with default value to work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:39:54.645Z] Finished step 'Updated field 'Custom.BlockedRootCause' with default value to work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:39:54.645Z] Begin step 'Add field 'Custom.Prioritisation' to work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:39:54.779Z] Finished step 'Add field 'Custom.Prioritisation' to work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:39:54.779Z] Begin step 'Add field 'Custom.RiskLevel' to work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:39:55.001Z] Finished step 'Add field 'Custom.RiskLevel' to work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:39:55.002Z] Begin step 'Add field 'Microsoft.VSTS.Common.AcceptanceCriteria' to work item type 'ADLP-Software-delivery.Feature''.
+[VERBOSE] [2023-04-12T14:39:55.068Z] Finished step 'Add field 'Microsoft.VSTS.Common.AcceptanceCriteria' to work item type 'ADLP-Software-delivery.Feature''.
+[VERBOSE] [2023-04-12T14:39:55.069Z] Begin step 'Add field 'Custom.PairedWith1' to work item type 'ADLP-Software-delivery.Feature''.
+[VERBOSE] [2023-04-12T14:39:55.124Z] Finished step 'Add field 'Custom.PairedWith1' to work item type 'ADLP-Software-delivery.Feature''.
+[VERBOSE] [2023-04-12T14:39:55.124Z] Begin step 'Add field 'Custom.PairedWith2' to work item type 'ADLP-Software-delivery.Feature''.
+[VERBOSE] [2023-04-12T14:39:55.179Z] Finished step 'Add field 'Custom.PairedWith2' to work item type 'ADLP-Software-delivery.Feature''.
+[VERBOSE] [2023-04-12T14:39:55.180Z] Begin step 'Add field 'Custom.ReflectedWorkItemId' to work item type 'ADLP-Software-delivery.Feature''.
+[VERBOSE] [2023-04-12T14:39:55.253Z] Finished step 'Add field 'Custom.ReflectedWorkItemId' to work item type 'ADLP-Software-delivery.Feature''.
+[VERBOSE] [2023-04-12T14:39:55.253Z] Begin step 'Add field 'Custom.BlockedRootCause' to work item type 'ADLP-Software-delivery.Feature''.
+[VERBOSE] [2023-04-12T14:39:55.315Z] Finished step 'Add field 'Custom.BlockedRootCause' to work item type 'ADLP-Software-delivery.Feature''.
+[VERBOSE] [2023-04-12T14:39:55.315Z] Begin step 'Add field 'Custom.Prioritisation' to work item type 'ADLP-Software-delivery.Feature''.
+[VERBOSE] [2023-04-12T14:39:55.384Z] Finished step 'Add field 'Custom.Prioritisation' to work item type 'ADLP-Software-delivery.Feature''.
+[VERBOSE] [2023-04-12T14:39:55.384Z] Begin step 'Add field 'Custom.RiskLevel' to work item type 'ADLP-Software-delivery.Feature''.
+[VERBOSE] [2023-04-12T14:39:55.457Z] Finished step 'Add field 'Custom.RiskLevel' to work item type 'ADLP-Software-delivery.Feature''.
+[VERBOSE] [2023-04-12T14:39:55.457Z] Begin step 'Add field 'Microsoft.VSTS.Common.AcceptanceCriteria' to work item type 'ADLP-Software-delivery.Epic''.
+[VERBOSE] [2023-04-12T14:39:55.555Z] Finished step 'Add field 'Microsoft.VSTS.Common.AcceptanceCriteria' to work item type 'ADLP-Software-delivery.Epic''.
+[VERBOSE] [2023-04-12T14:39:55.555Z] Begin step 'Add field 'Custom.PairedWith1' to work item type 'ADLP-Software-delivery.Epic''.
+[VERBOSE] [2023-04-12T14:39:55.622Z] Finished step 'Add field 'Custom.PairedWith1' to work item type 'ADLP-Software-delivery.Epic''.
+[VERBOSE] [2023-04-12T14:39:55.622Z] Begin step 'Add field 'Custom.PairedWith2' to work item type 'ADLP-Software-delivery.Epic''.
+[VERBOSE] [2023-04-12T14:39:55.701Z] Finished step 'Add field 'Custom.PairedWith2' to work item type 'ADLP-Software-delivery.Epic''.
+[VERBOSE] [2023-04-12T14:39:55.701Z] Begin step 'Add field 'Custom.ReflectedWorkItemId' to work item type 'ADLP-Software-delivery.Epic''.
+[VERBOSE] [2023-04-12T14:39:55.769Z] Finished step 'Add field 'Custom.ReflectedWorkItemId' to work item type 'ADLP-Software-delivery.Epic''.
+[VERBOSE] [2023-04-12T14:39:55.771Z] Begin step 'Add field 'Custom.BlockedRootCause' to work item type 'ADLP-Software-delivery.Epic''.
+[VERBOSE] [2023-04-12T14:39:55.835Z] Finished step 'Add field 'Custom.BlockedRootCause' to work item type 'ADLP-Software-delivery.Epic''.
+[VERBOSE] [2023-04-12T14:39:55.835Z] Begin step 'Add field 'Custom.Prioritisation' to work item type 'ADLP-Software-delivery.Epic''.
+[VERBOSE] [2023-04-12T14:39:55.918Z] Finished step 'Add field 'Custom.Prioritisation' to work item type 'ADLP-Software-delivery.Epic''.
+[VERBOSE] [2023-04-12T14:39:55.918Z] Begin step 'Add field 'Custom.RiskLevel' to work item type 'ADLP-Software-delivery.Epic''.
+[VERBOSE] [2023-04-12T14:39:55.974Z] Finished step 'Add field 'Custom.RiskLevel' to work item type 'ADLP-Software-delivery.Epic''.
+[VERBOSE] [2023-04-12T14:39:55.974Z] Begin step 'Add field 'System.State' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.041Z] Finished step 'Add field 'System.State' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.041Z] Begin step 'Updated field 'System.State' with default value to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.102Z] Finished step 'Updated field 'System.State' with default value to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.102Z] Begin step 'Add field 'System.Reason' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.165Z] Finished step 'Add field 'System.Reason' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.165Z] Begin step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.269Z] Finished step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.269Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.337Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.337Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.425Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.425Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.490Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.490Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.563Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.563Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.633Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.634Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.690Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:39:56.690Z] Begin step 'Add field 'System.State' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:56.746Z] Finished step 'Add field 'System.State' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:56.746Z] Begin step 'Updated field 'System.State' with default value to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:56.815Z] Finished step 'Updated field 'System.State' with default value to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:56.816Z] Begin step 'Add field 'System.Reason' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:56.877Z] Finished step 'Add field 'System.Reason' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:56.877Z] Begin step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:56.966Z] Finished step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:56.966Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:57.038Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:57.039Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:57.131Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:57.131Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:57.197Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:57.197Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:57.383Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:57.383Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:57.443Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:57.444Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:57.512Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:57.512Z] Begin step 'Add field 'Custom.KeyResultScore' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:57.758Z] Finished step 'Add field 'Custom.KeyResultScore' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:57.758Z] Begin step 'Add field 'Custom.KeyResultPercentageProgress' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:57.831Z] Finished step 'Add field 'Custom.KeyResultPercentageProgress' to work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:39:57.832Z] Begin step 'Add field 'System.State' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:57.896Z] Finished step 'Add field 'System.State' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:57.897Z] Begin step 'Updated field 'System.State' with default value to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:57.993Z] Finished step 'Updated field 'System.State' with default value to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:57.994Z] Begin step 'Add field 'System.Reason' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:58.057Z] Finished step 'Add field 'System.Reason' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:58.059Z] Begin step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:58.303Z] Finished step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:58.303Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:58.498Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:58.498Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:58.571Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:58.572Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:58.644Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:58.644Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:58.714Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:58.714Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:58.782Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:58.783Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:58.875Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:58.875Z] Begin step 'Add field 'Custom.PairedWith1' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:59.122Z] Finished step 'Add field 'Custom.PairedWith1' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:59.122Z] Begin step 'Add field 'Custom.PairedWith2' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:59.187Z] Finished step 'Add field 'Custom.PairedWith2' to work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:39:59.187Z] Begin step 'Add field 'System.State' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.255Z] Finished step 'Add field 'System.State' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.255Z] Begin step 'Updated field 'System.State' with default value to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.315Z] Finished step 'Updated field 'System.State' with default value to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.315Z] Begin step 'Add field 'System.Reason' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.383Z] Finished step 'Add field 'System.Reason' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.383Z] Begin step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.440Z] Finished step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.440Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.507Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.507Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.586Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.587Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.682Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.682Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.779Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.779Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.848Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.848Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.913Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.913Z] Begin step 'Add field 'Microsoft.VSTS.Common.AcceptanceCriteria' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.972Z] Finished step 'Add field 'Microsoft.VSTS.Common.AcceptanceCriteria' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:39:59.972Z] Begin step 'Add field 'Custom.PairedWith1' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:40:00.044Z] Finished step 'Add field 'Custom.PairedWith1' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:40:00.044Z] Begin step 'Add field 'Custom.PairedWith2' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:40:00.101Z] Finished step 'Add field 'Custom.PairedWith2' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:40:00.102Z] Begin step 'Add field 'Custom.BlockedRootCause' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:40:00.172Z] Finished step 'Add field 'Custom.BlockedRootCause' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:40:00.173Z] Begin step 'Add field 'Custom.Prioritisation' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:40:00.335Z] Finished step 'Add field 'Custom.Prioritisation' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:40:00.335Z] Begin step 'Add field 'Custom.RiskLevel' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:40:00.434Z] Finished step 'Add field 'Custom.RiskLevel' to work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:40:00.434Z] Begin step 'Add field 'System.State' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:00.516Z] Finished step 'Add field 'System.State' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:00.517Z] Begin step 'Updated field 'System.State' with default value to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:00.865Z] Finished step 'Updated field 'System.State' with default value to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:00.865Z] Begin step 'Add field 'System.Reason' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:00.926Z] Finished step 'Add field 'System.Reason' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:00.926Z] Begin step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:00.998Z] Finished step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:00.999Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:01.063Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:01.064Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:01.127Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:01.127Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:01.242Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:01.242Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:01.734Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:01.734Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:01.789Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:01.789Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:01.858Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:01.858Z] Begin step 'Add field 'System.State' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:01.930Z] Finished step 'Add field 'System.State' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:01.930Z] Begin step 'Updated field 'System.State' with default value to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.016Z] Finished step 'Updated field 'System.State' with default value to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.017Z] Begin step 'Add field 'System.Reason' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.098Z] Finished step 'Add field 'System.Reason' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.099Z] Begin step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.198Z] Finished step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.199Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.264Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.264Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.334Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.334Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.407Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.407Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.464Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.464Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.526Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.526Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.589Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:02.589Z] Begin step 'Add field 'System.State' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.008Z] Finished step 'Add field 'System.State' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.009Z] Begin step 'Updated field 'System.State' with default value to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.208Z] Finished step 'Updated field 'System.State' with default value to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.208Z] Begin step 'Add field 'System.Reason' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.285Z] Finished step 'Add field 'System.Reason' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.285Z] Begin step 'Add field 'System.Description' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.354Z] Finished step 'Add field 'System.Description' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.354Z] Begin step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.423Z] Finished step 'Add field 'Microsoft.VSTS.Common.StateChangeDate' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.423Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.485Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedDate' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.485Z] Begin step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.593Z] Finished step 'Add field 'Microsoft.VSTS.Common.ActivatedBy' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.593Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.659Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedDate' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.660Z] Begin step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.717Z] Finished step 'Add field 'Microsoft.VSTS.Common.ResolvedBy' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.718Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.788Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedDate' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.788Z] Begin step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.853Z] Finished step 'Add field 'Microsoft.VSTS.Common.ClosedBy' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.853Z] Begin step 'Add field 'Custom.ObjectiveScore' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.916Z] Finished step 'Add field 'Custom.ObjectiveScore' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:03.916Z] Begin step 'Add field 'Custom.ObjectivePercentageProgress' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:04.011Z] Finished step 'Add field 'Custom.ObjectivePercentageProgress' to work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:04.012Z] Begin step 'Add field 'Microsoft.VSTS.Common.Severity' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:04.081Z] Finished step 'Add field 'Microsoft.VSTS.Common.Severity' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:04.081Z] Begin step 'Updated field 'Microsoft.VSTS.Common.Severity' with default value to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:04.151Z] Finished step 'Updated field 'Microsoft.VSTS.Common.Severity' with default value to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:04.151Z] Begin step 'Add field 'Custom.PairedWith1' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:04.210Z] Finished step 'Add field 'Custom.PairedWith1' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:04.211Z] Begin step 'Add field 'Custom.PairedWith2' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:04.354Z] Finished step 'Add field 'Custom.PairedWith2' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:04.354Z] Begin step 'Add field 'Custom.ReflectedWorkItemId' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:04.430Z] Finished step 'Add field 'Custom.ReflectedWorkItemId' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:04.430Z] Begin step 'Add field 'Custom.BlockedRootCause' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.108Z] Finished step 'Add field 'Custom.BlockedRootCause' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.108Z] Begin step 'Add field 'Custom.Prioritisation' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.177Z] Finished step 'Add field 'Custom.Prioritisation' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.177Z] Begin step 'Add field 'Custom.RootSource' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.247Z] Finished step 'Add field 'Custom.RootSource' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.247Z] Begin step 'Add field 'Custom.ActualOutcome' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.349Z] Finished step 'Add field 'Custom.ActualOutcome' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.350Z] Begin step 'Add field 'Custom.ExpectedOutcome' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.418Z] Finished step 'Add field 'Custom.ExpectedOutcome' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.418Z] Begin step 'Add field 'Custom.DetectedonEnvironment' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.485Z] Finished step 'Add field 'Custom.DetectedonEnvironment' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.485Z] Begin step 'Add field 'Custom.RootCause' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.559Z] Finished step 'Add field 'Custom.RootCause' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.559Z] Begin step 'Add field 'Custom.TestingPhase' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.621Z] Finished step 'Add field 'Custom.TestingPhase' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.621Z] Begin step 'Add field 'Custom.322da551-0c2d-43f8-a77f-4e9bc60169a2' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.688Z] Finished step 'Add field 'Custom.322da551-0c2d-43f8-a77f-4e9bc60169a2' to work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:05.688Z] Finished step 'Add field to work item types on target process'.
+[VERBOSE] [2023-04-12T14:40:05.688Z] Begin step 'Import work item form layouts on target process'.
+[VERBOSE] [2023-04-12T14:40:05.688Z] Begin step 'Get layout on target process for work item type 'ADLP-Software-delivery.Issue''.
+[VERBOSE] [2023-04-12T14:40:05.833Z] Finished step 'Get layout on target process for work item type 'ADLP-Software-delivery.Issue''.
+[VERBOSE] [2023-04-12T14:40:05.834Z] Begin step 'Edit 'Agile.Issue.Issue' page in ADLP-Software-delivery.Issue'.
+[VERBOSE] [2023-04-12T14:40:05.920Z] Finished step 'Edit 'Agile.Issue.Issue' page in ADLP-Software-delivery.Issue'.
+[VERBOSE] [2023-04-12T14:40:05.920Z] Start import inherited group changes
+[VERBOSE] [2023-04-12T14:40:05.921Z] Start import custom groups and all controls
+[VERBOSE] [2023-04-12T14:40:05.921Z] Begin step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'Agile.Issue.Issue''.
+[VERBOSE] [2023-04-12T14:40:06.049Z] Finished step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'Agile.Issue.Issue''.
+[VERBOSE] [2023-04-12T14:40:06.049Z] Begin step 'Get layout on target process for work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:40:06.190Z] Finished step 'Get layout on target process for work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:40:06.190Z] Begin step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in ADLP-Software-delivery.KeyResult'.
+[VERBOSE] [2023-04-12T14:40:06.288Z] Finished step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in ADLP-Software-delivery.KeyResult'.
+[VERBOSE] [2023-04-12T14:40:06.288Z] Start import inherited group changes
+[VERBOSE] [2023-04-12T14:40:06.288Z] Start import custom groups and all controls
+[VERBOSE] [2023-04-12T14:40:06.288Z] Begin step 'Create group '0a6b59c6-43c5-464b-aa46-3287229e3d41' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:06.417Z] Finished step 'Create group '0a6b59c6-43c5-464b-aa46-3287229e3d41' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:06.418Z] Begin step 'Create control 'Custom.KeyResultScore' in group 'a01104ca-fe22-45f4-83ba-2c7e9a5ffdfe' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.KeyResult'.'.
+[VERBOSE] [2023-04-12T14:40:06.522Z] Finished step 'Create control 'Custom.KeyResultScore' in group 'a01104ca-fe22-45f4-83ba-2c7e9a5ffdfe' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.KeyResult'.'.
+[VERBOSE] [2023-04-12T14:40:06.523Z] Begin step 'Create control 'Custom.KeyResultPercentageProgress' in group 'a01104ca-fe22-45f4-83ba-2c7e9a5ffdfe' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.KeyResult'.'.
+[VERBOSE] [2023-04-12T14:40:06.616Z] Finished step 'Create control 'Custom.KeyResultPercentageProgress' in group 'a01104ca-fe22-45f4-83ba-2c7e9a5ffdfe' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.KeyResult'.'.
+[VERBOSE] [2023-04-12T14:40:06.616Z] Begin step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:06.931Z] Finished step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:06.931Z] Begin step 'Edit control 'Deployments' in group 'Agile.Bug.Bug.Deployment' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.KeyResult'.'.
+[VERBOSE] [2023-04-12T14:40:07.037Z] Finished step 'Edit control 'Deployments' in group 'Agile.Bug.Bug.Deployment' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.KeyResult'.'.
+[VERBOSE] [2023-04-12T14:40:07.037Z] Begin step 'Edit control 'Development' in group 'Agile.Bug.Bug.Development' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.KeyResult'.'.
+[VERBOSE] [2023-04-12T14:40:07.129Z] Finished step 'Edit control 'Development' in group 'Agile.Bug.Bug.Development' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.KeyResult'.'.
+[VERBOSE] [2023-04-12T14:40:07.129Z] Begin step 'Get layout on target process for work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:07.396Z] Finished step 'Get layout on target process for work item type 'ADLP-Software-Delivery.ProductGroup''.
+[VERBOSE] [2023-04-12T14:40:07.396Z] Begin step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in ADLP-Software-Delivery.ProductGroup'.
+[VERBOSE] [2023-04-12T14:40:07.528Z] Finished step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in ADLP-Software-Delivery.ProductGroup'.
+[VERBOSE] [2023-04-12T14:40:07.528Z] Start import inherited group changes
+[VERBOSE] [2023-04-12T14:40:07.528Z] Start import custom groups and all controls
+[VERBOSE] [2023-04-12T14:40:07.529Z] Begin step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:07.623Z] Finished step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:07.624Z] Begin step 'Edit control 'Deployments' in group 'Agile.Bug.Bug.Deployment' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-Delivery.ProductGroup'.'.
+[VERBOSE] [2023-04-12T14:40:07.738Z] Finished step 'Edit control 'Deployments' in group 'Agile.Bug.Bug.Deployment' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-Delivery.ProductGroup'.'.
+[VERBOSE] [2023-04-12T14:40:07.739Z] Begin step 'Edit control 'Development' in group 'Agile.Bug.Bug.Development' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-Delivery.ProductGroup'.'.
+[VERBOSE] [2023-04-12T14:40:07.844Z] Finished step 'Edit control 'Development' in group 'Agile.Bug.Bug.Development' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-Delivery.ProductGroup'.'.
+[VERBOSE] [2023-04-12T14:40:07.844Z] Begin step 'Get layout on target process for work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:07.882Z] Finished step 'Get layout on target process for work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:07.883Z] Begin step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in ADLP-Software-delivery.Objective'.
+[VERBOSE] [2023-04-12T14:40:08.242Z] Finished step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in ADLP-Software-delivery.Objective'.
+[VERBOSE] [2023-04-12T14:40:08.242Z] Start import inherited group changes
+[VERBOSE] [2023-04-12T14:40:08.242Z] Begin step 'edit group 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details.Description.WideGroup' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:08.427Z] Finished step 'edit group 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details.Description.WideGroup' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:08.427Z] Start import custom groups and all controls
+[VERBOSE] [2023-04-12T14:40:08.427Z] Begin step 'Edit HTML control 'System.Description in group'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details.Description.WideGroup' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:08.521Z] Finished step 'Edit HTML control 'System.Description in group'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details.Description.WideGroup' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:08.522Z] Begin step 'Create group 'e9c4568d-e102-41da-a36e-6e9357cc9677' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:08.603Z] Finished step 'Create group 'e9c4568d-e102-41da-a36e-6e9357cc9677' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:08.603Z] Begin step 'Create control 'Custom.ObjectiveScore' in group '73983b60-5bb7-4b31-be72-f76d829a5541' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Objective'.'.
+[VERBOSE] [2023-04-12T14:40:08.681Z] Finished step 'Create control 'Custom.ObjectiveScore' in group '73983b60-5bb7-4b31-be72-f76d829a5541' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Objective'.'.
+[VERBOSE] [2023-04-12T14:40:08.681Z] Begin step 'Create control 'Custom.ObjectivePercentageProgress' in group '73983b60-5bb7-4b31-be72-f76d829a5541' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Objective'.'.
+[VERBOSE] [2023-04-12T14:40:08.772Z] Finished step 'Create control 'Custom.ObjectivePercentageProgress' in group '73983b60-5bb7-4b31-be72-f76d829a5541' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Objective'.'.
+[VERBOSE] [2023-04-12T14:40:08.774Z] Begin step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:08.860Z] Finished step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:08.860Z] Begin step 'Edit control 'Deployments' in group 'Agile.Bug.Bug.Deployment' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Objective'.'.
+[VERBOSE] [2023-04-12T14:40:08.929Z] Finished step 'Edit control 'Deployments' in group 'Agile.Bug.Bug.Deployment' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Objective'.'.
+[VERBOSE] [2023-04-12T14:40:08.929Z] Begin step 'Edit control 'Development' in group 'Agile.Bug.Bug.Development' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Objective'.'.
+[VERBOSE] [2023-04-12T14:40:09.004Z] Finished step 'Edit control 'Development' in group 'Agile.Bug.Bug.Development' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Objective'.'.
+[VERBOSE] [2023-04-12T14:40:09.004Z] Begin step 'Edit control 'Related Work' in group 'Agile.Bug.Bug.Related Work' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Objective'.'.
+[VERBOSE] [2023-04-12T14:40:09.089Z] Finished step 'Edit control 'Related Work' in group 'Agile.Bug.Bug.Related Work' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Objective'.'.
+[VERBOSE] [2023-04-12T14:40:09.089Z] Begin step 'Get layout on target process for work item type 'ADLP-Software-delivery.Feature''.
+[VERBOSE] [2023-04-12T14:40:09.132Z] Finished step 'Get layout on target process for work item type 'ADLP-Software-delivery.Feature''.
+[VERBOSE] [2023-04-12T14:40:09.132Z] Begin step 'Edit 'Agile.Feature.Feature' page in ADLP-Software-delivery.Feature'.
+[VERBOSE] [2023-04-12T14:40:09.187Z] Finished step 'Edit 'Agile.Feature.Feature' page in ADLP-Software-delivery.Feature'.
+[VERBOSE] [2023-04-12T14:40:09.188Z] Start import inherited group changes
+[VERBOSE] [2023-04-12T14:40:09.188Z] Start import custom groups and all controls
+[VERBOSE] [2023-04-12T14:40:09.188Z] Begin step 'Create group 'ecc5a49b-0b12-4db7-a0ed-5f79d99f8741' in page 'Agile.Feature.Feature''.
+[VERBOSE] [2023-04-12T14:40:09.624Z] Finished step 'Create group 'ecc5a49b-0b12-4db7-a0ed-5f79d99f8741' in page 'Agile.Feature.Feature''.
+[VERBOSE] [2023-04-12T14:40:09.624Z] Begin step 'Edit control 'Microsoft.VSTS.Common.Priority' in group 'Agile.Feature.Feature.Planning' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:10.146Z] Finished step 'Edit control 'Microsoft.VSTS.Common.Priority' in group 'Agile.Feature.Feature.Planning' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:10.146Z] Begin step 'Edit control 'Microsoft.VSTS.Common.Risk' in group 'Agile.Feature.Feature.Planning' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:10.327Z] Finished step 'Edit control 'Microsoft.VSTS.Common.Risk' in group 'Agile.Feature.Feature.Planning' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:10.327Z] Begin step 'Edit control 'Microsoft.VSTS.Scheduling.Effort' in group 'Agile.Feature.Feature.Planning' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:10.397Z] Finished step 'Edit control 'Microsoft.VSTS.Scheduling.Effort' in group 'Agile.Feature.Feature.Planning' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:10.399Z] Begin step 'Edit control 'Microsoft.VSTS.Common.BusinessValue' in group 'Agile.Feature.Feature.Planning' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:10.475Z] Finished step 'Edit control 'Microsoft.VSTS.Common.BusinessValue' in group 'Agile.Feature.Feature.Planning' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:10.475Z] Begin step 'Edit control 'Microsoft.VSTS.Common.TimeCriticality' in group 'Agile.Feature.Feature.Planning' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:10.556Z] Finished step 'Edit control 'Microsoft.VSTS.Common.TimeCriticality' in group 'Agile.Feature.Feature.Planning' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:10.556Z] Begin step 'Edit control 'Microsoft.VSTS.Scheduling.StartDate' in group 'Agile.Feature.Feature.Planning' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:10.622Z] Finished step 'Edit control 'Microsoft.VSTS.Scheduling.StartDate' in group 'Agile.Feature.Feature.Planning' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:10.623Z] Begin step 'Edit control 'Microsoft.VSTS.Scheduling.TargetDate' in group 'Agile.Feature.Feature.Planning' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:10.992Z] Finished step 'Edit control 'Microsoft.VSTS.Scheduling.TargetDate' in group 'Agile.Feature.Feature.Planning' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:10.992Z] Begin step 'Edit control 'Microsoft.VSTS.Common.ValueArea' in group 'Agile.Feature.Feature.Classification' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:11.069Z] Finished step 'Edit control 'Microsoft.VSTS.Common.ValueArea' in group 'Agile.Feature.Feature.Classification' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:11.069Z] Begin step 'Create control 'Custom.Prioritisation' in group 'Agile.Feature.Feature.Classification' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:11.161Z] Finished step 'Create control 'Custom.Prioritisation' in group 'Agile.Feature.Feature.Classification' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:11.161Z] Begin step 'Create control 'Custom.BlockedRootCause' in group 'Agile.Feature.Feature.Classification' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:11.289Z] Finished step 'Create control 'Custom.BlockedRootCause' in group 'Agile.Feature.Feature.Classification' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:11.290Z] Begin step 'Create control 'Custom.RiskLevel' in group 'Agile.Feature.Feature.Classification' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:11.372Z] Finished step 'Create control 'Custom.RiskLevel' in group 'Agile.Feature.Feature.Classification' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:11.372Z] Begin step 'Create control 'Custom.ReflectedWorkItemId' in group 'Agile.Feature.Feature.Classification' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:11.442Z] Finished step 'Create control 'Custom.ReflectedWorkItemId' in group 'Agile.Feature.Feature.Classification' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:11.442Z] Begin step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'Agile.Feature.Feature''.
+[VERBOSE] [2023-04-12T14:40:11.506Z] Finished step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'Agile.Feature.Feature''.
+[VERBOSE] [2023-04-12T14:40:11.507Z] Begin step 'Create group '4f82e7d9-4fa8-4296-9bc1-15821beb8c06' in page 'Agile.Feature.Feature''.
+[VERBOSE] [2023-04-12T14:40:11.998Z] Finished step 'Create group '4f82e7d9-4fa8-4296-9bc1-15821beb8c06' in page 'Agile.Feature.Feature''.
+[VERBOSE] [2023-04-12T14:40:11.999Z] Begin step 'Create control 'Custom.PairedWith1' in group 'c4e0ec4a-74ba-4fef-9ff1-15829f722e05' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:12.071Z] Finished step 'Create control 'Custom.PairedWith1' in group 'c4e0ec4a-74ba-4fef-9ff1-15829f722e05' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:12.072Z] Begin step 'Create control 'Custom.PairedWith2' in group 'c4e0ec4a-74ba-4fef-9ff1-15829f722e05' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:12.147Z] Finished step 'Create control 'Custom.PairedWith2' in group 'c4e0ec4a-74ba-4fef-9ff1-15829f722e05' in page 'Agile.Feature.Feature' in work item type 'ADLP-Software-delivery.Feature'.'.
+[VERBOSE] [2023-04-12T14:40:12.148Z] Begin step 'Get layout on target process for work item type 'ADLP-Software-delivery.Epic''.
+[VERBOSE] [2023-04-12T14:40:12.186Z] Finished step 'Get layout on target process for work item type 'ADLP-Software-delivery.Epic''.
+[VERBOSE] [2023-04-12T14:40:12.186Z] Begin step 'Edit 'Agile.Epic.Epic' page in ADLP-Software-delivery.Epic'.
+[VERBOSE] [2023-04-12T14:40:12.587Z] Finished step 'Edit 'Agile.Epic.Epic' page in ADLP-Software-delivery.Epic'.
+[VERBOSE] [2023-04-12T14:40:12.587Z] Start import inherited group changes
+[VERBOSE] [2023-04-12T14:40:12.587Z] Start import custom groups and all controls
+[VERBOSE] [2023-04-12T14:40:12.587Z] Begin step 'Create group '274e4b78-6383-48a8-8119-58a1c94abd7e' in page 'Agile.Epic.Epic''.
+[VERBOSE] [2023-04-12T14:40:12.664Z] Finished step 'Create group '274e4b78-6383-48a8-8119-58a1c94abd7e' in page 'Agile.Epic.Epic''.
+[VERBOSE] [2023-04-12T14:40:12.665Z] Begin step 'Edit control 'Microsoft.VSTS.Common.Priority' in group 'Agile.Epic.Epic.Planning' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:12.743Z] Finished step 'Edit control 'Microsoft.VSTS.Common.Priority' in group 'Agile.Epic.Epic.Planning' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:12.744Z] Begin step 'Edit control 'Microsoft.VSTS.Common.Risk' in group 'Agile.Epic.Epic.Planning' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:12.821Z] Finished step 'Edit control 'Microsoft.VSTS.Common.Risk' in group 'Agile.Epic.Epic.Planning' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:12.821Z] Begin step 'Edit control 'Microsoft.VSTS.Scheduling.Effort' in group 'Agile.Epic.Epic.Planning' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:12.900Z] Finished step 'Edit control 'Microsoft.VSTS.Scheduling.Effort' in group 'Agile.Epic.Epic.Planning' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:12.900Z] Begin step 'Edit control 'Microsoft.VSTS.Common.BusinessValue' in group 'Agile.Epic.Epic.Planning' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.065Z] Finished step 'Edit control 'Microsoft.VSTS.Common.BusinessValue' in group 'Agile.Epic.Epic.Planning' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.065Z] Begin step 'Edit control 'Microsoft.VSTS.Common.TimeCriticality' in group 'Agile.Epic.Epic.Planning' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.146Z] Finished step 'Edit control 'Microsoft.VSTS.Common.TimeCriticality' in group 'Agile.Epic.Epic.Planning' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.147Z] Begin step 'Edit control 'Microsoft.VSTS.Scheduling.StartDate' in group 'Agile.Epic.Epic.Planning' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.220Z] Finished step 'Edit control 'Microsoft.VSTS.Scheduling.StartDate' in group 'Agile.Epic.Epic.Planning' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.220Z] Begin step 'Edit control 'Microsoft.VSTS.Scheduling.TargetDate' in group 'Agile.Epic.Epic.Planning' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.285Z] Finished step 'Edit control 'Microsoft.VSTS.Scheduling.TargetDate' in group 'Agile.Epic.Epic.Planning' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.285Z] Begin step 'Edit control 'Microsoft.VSTS.Common.ValueArea' in group 'Agile.Epic.Epic.Classification' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.378Z] Finished step 'Edit control 'Microsoft.VSTS.Common.ValueArea' in group 'Agile.Epic.Epic.Classification' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.379Z] Begin step 'Create control 'Custom.Prioritisation' in group 'Agile.Epic.Epic.Classification' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.458Z] Finished step 'Create control 'Custom.Prioritisation' in group 'Agile.Epic.Epic.Classification' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.459Z] Begin step 'Create control 'Custom.BlockedRootCause' in group 'Agile.Epic.Epic.Classification' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.529Z] Finished step 'Create control 'Custom.BlockedRootCause' in group 'Agile.Epic.Epic.Classification' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.529Z] Begin step 'Create control 'Custom.RiskLevel' in group 'Agile.Epic.Epic.Classification' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.782Z] Finished step 'Create control 'Custom.RiskLevel' in group 'Agile.Epic.Epic.Classification' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.782Z] Begin step 'Create control 'Custom.ReflectedWorkItemId' in group 'Agile.Epic.Epic.Classification' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.861Z] Finished step 'Create control 'Custom.ReflectedWorkItemId' in group 'Agile.Epic.Epic.Classification' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:13.862Z] Begin step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'Agile.Epic.Epic''.
+[VERBOSE] [2023-04-12T14:40:13.944Z] Finished step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'Agile.Epic.Epic''.
+[VERBOSE] [2023-04-12T14:40:13.945Z] Begin step 'Create group '73a0c0d4-f1ee-49da-bfd5-2f5e706604d6' in page 'Agile.Epic.Epic''.
+[VERBOSE] [2023-04-12T14:40:14.046Z] Finished step 'Create group '73a0c0d4-f1ee-49da-bfd5-2f5e706604d6' in page 'Agile.Epic.Epic''.
+[VERBOSE] [2023-04-12T14:40:14.046Z] Begin step 'Create control 'Custom.PairedWith1' in group 'b1c9cd5e-3cc6-4e27-8170-89bafaef684f' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:14.120Z] Finished step 'Create control 'Custom.PairedWith1' in group 'b1c9cd5e-3cc6-4e27-8170-89bafaef684f' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:14.120Z] Begin step 'Create control 'Custom.PairedWith2' in group 'b1c9cd5e-3cc6-4e27-8170-89bafaef684f' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:14.196Z] Finished step 'Create control 'Custom.PairedWith2' in group 'b1c9cd5e-3cc6-4e27-8170-89bafaef684f' in page 'Agile.Epic.Epic' in work item type 'ADLP-Software-delivery.Epic'.'.
+[VERBOSE] [2023-04-12T14:40:14.196Z] Begin step 'Get layout on target process for work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:40:14.239Z] Finished step 'Get layout on target process for work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:40:14.239Z] Begin step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in FUSE-Software-Delivery.Risk'.
+[VERBOSE] [2023-04-12T14:40:14.386Z] Finished step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in FUSE-Software-Delivery.Risk'.
+[VERBOSE] [2023-04-12T14:40:14.387Z] Start import inherited group changes
+[VERBOSE] [2023-04-12T14:40:14.387Z] Start import custom groups and all controls
+[VERBOSE] [2023-04-12T14:40:14.387Z] Begin step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:14.510Z] Finished step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:14.510Z] Begin step 'Get layout on target process for work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:40:14.624Z] Finished step 'Get layout on target process for work item type 'ADLP-Software-delivery.TechnicalDebt''.
+[VERBOSE] [2023-04-12T14:40:14.624Z] Begin step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in ADLP-Software-delivery.TechnicalDebt'.
+[VERBOSE] [2023-04-12T14:40:14.683Z] Finished step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in ADLP-Software-delivery.TechnicalDebt'.
+[VERBOSE] [2023-04-12T14:40:14.684Z] Start import inherited group changes
+[VERBOSE] [2023-04-12T14:40:14.684Z] Start import custom groups and all controls
+[VERBOSE] [2023-04-12T14:40:14.684Z] Begin step 'Create group '24ea61cd-c9d7-4699-923a-9405138bb739' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:14.762Z] Finished step 'Create group '24ea61cd-c9d7-4699-923a-9405138bb739' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:14.762Z] Begin step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:14.835Z] Finished step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:14.835Z] Begin step 'Create group '13ea0687-2f26-4f18-a5df-b9f6c6e178d2' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:14.915Z] Finished step 'Create group '13ea0687-2f26-4f18-a5df-b9f6c6e178d2' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:14.915Z] Begin step 'Create control 'Custom.Prioritisation' in group '75e03d45-8f04-463a-af59-3ba0b373d1e9' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.TechnicalDebt'.'.
+[VERBOSE] [2023-04-12T14:40:14.991Z] Finished step 'Create control 'Custom.Prioritisation' in group '75e03d45-8f04-463a-af59-3ba0b373d1e9' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.TechnicalDebt'.'.
+[VERBOSE] [2023-04-12T14:40:14.992Z] Begin step 'Create control 'Custom.BlockedRootCause' in group '75e03d45-8f04-463a-af59-3ba0b373d1e9' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.TechnicalDebt'.'.
+[VERBOSE] [2023-04-12T14:40:15.123Z] Finished step 'Create control 'Custom.BlockedRootCause' in group '75e03d45-8f04-463a-af59-3ba0b373d1e9' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.TechnicalDebt'.'.
+[VERBOSE] [2023-04-12T14:40:15.124Z] Begin step 'Create control 'Custom.RiskLevel' in group '75e03d45-8f04-463a-af59-3ba0b373d1e9' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.TechnicalDebt'.'.
+[VERBOSE] [2023-04-12T14:40:15.203Z] Finished step 'Create control 'Custom.RiskLevel' in group '75e03d45-8f04-463a-af59-3ba0b373d1e9' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.TechnicalDebt'.'.
+[VERBOSE] [2023-04-12T14:40:15.204Z] Begin step 'Create group '0df5d49e-b0ae-473c-bc11-d25524780f31' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:15.295Z] Finished step 'Create group '0df5d49e-b0ae-473c-bc11-d25524780f31' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:15.296Z] Begin step 'Create control 'Custom.PairedWith1' in group 'd2e52dd1-f8d0-4380-9ef5-ae6ccc15101c' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.TechnicalDebt'.'.
+[VERBOSE] [2023-04-12T14:40:15.374Z] Finished step 'Create control 'Custom.PairedWith1' in group 'd2e52dd1-f8d0-4380-9ef5-ae6ccc15101c' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.TechnicalDebt'.'.
+[VERBOSE] [2023-04-12T14:40:15.374Z] Begin step 'Create control 'Custom.PairedWith2' in group 'd2e52dd1-f8d0-4380-9ef5-ae6ccc15101c' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.TechnicalDebt'.'.
+[VERBOSE] [2023-04-12T14:40:15.461Z] Finished step 'Create control 'Custom.PairedWith2' in group 'd2e52dd1-f8d0-4380-9ef5-ae6ccc15101c' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.TechnicalDebt'.'.
+[VERBOSE] [2023-04-12T14:40:15.461Z] Begin step 'Get layout on target process for work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:40:15.499Z] Finished step 'Get layout on target process for work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:40:15.499Z] Begin step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in ADLP-Software-Delivery.Engagement'.
+[VERBOSE] [2023-04-12T14:40:15.600Z] Finished step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in ADLP-Software-Delivery.Engagement'.
+[VERBOSE] [2023-04-12T14:40:15.600Z] Start import inherited group changes
+[VERBOSE] [2023-04-12T14:40:15.600Z] Start import custom groups and all controls
+[VERBOSE] [2023-04-12T14:40:15.601Z] Begin step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:15.675Z] Finished step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:15.675Z] Begin step 'Create group 'c0ec6064-14f2-4c18-a078-1a09cedf6959' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:15.983Z] Finished step 'Create group 'c0ec6064-14f2-4c18-a078-1a09cedf6959' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:15.983Z] Begin step 'Create control 'Custom.PairedWith1' in group '511cf3b9-83b1-49eb-9d1d-2e92a493a432' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-Delivery.Engagement'.'.
+[VERBOSE] [2023-04-12T14:40:16.083Z] Finished step 'Create control 'Custom.PairedWith1' in group '511cf3b9-83b1-49eb-9d1d-2e92a493a432' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-Delivery.Engagement'.'.
+[VERBOSE] [2023-04-12T14:40:16.084Z] Begin step 'Create control 'Custom.PairedWith2' in group '511cf3b9-83b1-49eb-9d1d-2e92a493a432' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-Delivery.Engagement'.'.
+[VERBOSE] [2023-04-12T14:40:16.164Z] Finished step 'Create control 'Custom.PairedWith2' in group '511cf3b9-83b1-49eb-9d1d-2e92a493a432' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-Delivery.Engagement'.'.
+[VERBOSE] [2023-04-12T14:40:16.164Z] Begin step 'Edit control 'Deployments' in group 'Agile.Bug.Bug.Deployment' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-Delivery.Engagement'.'.
+[VERBOSE] [2023-04-12T14:40:16.236Z] Finished step 'Edit control 'Deployments' in group 'Agile.Bug.Bug.Deployment' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-Delivery.Engagement'.'.
+[VERBOSE] [2023-04-12T14:40:16.236Z] Begin step 'Edit control 'Development' in group 'Agile.Bug.Bug.Development' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-Delivery.Engagement'.'.
+[VERBOSE] [2023-04-12T14:40:16.639Z] Finished step 'Edit control 'Development' in group 'Agile.Bug.Bug.Development' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-Delivery.Engagement'.'.
+[VERBOSE] [2023-04-12T14:40:16.639Z] Begin step 'Get layout on target process for work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:16.675Z] Finished step 'Get layout on target process for work item type 'ADLP-Software-delivery.Product''.
+[VERBOSE] [2023-04-12T14:40:16.675Z] Begin step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in ADLP-Software-delivery.Product'.
+[VERBOSE] [2023-04-12T14:40:16.775Z] Finished step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in ADLP-Software-delivery.Product'.
+[VERBOSE] [2023-04-12T14:40:16.776Z] Start import inherited group changes
+[VERBOSE] [2023-04-12T14:40:16.776Z] Start import custom groups and all controls
+[VERBOSE] [2023-04-12T14:40:16.776Z] Begin step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:16.891Z] Finished step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:16.891Z] Begin step 'Get layout on target process for work item type 'ADLP-Software-delivery.Task''.
+[VERBOSE] [2023-04-12T14:40:16.931Z] Finished step 'Get layout on target process for work item type 'ADLP-Software-delivery.Task''.
+[VERBOSE] [2023-04-12T14:40:16.931Z] Begin step 'Edit 'Agile.Task.Task' page in ADLP-Software-delivery.Task'.
+[VERBOSE] [2023-04-12T14:40:16.991Z] Finished step 'Edit 'Agile.Task.Task' page in ADLP-Software-delivery.Task'.
+[VERBOSE] [2023-04-12T14:40:16.991Z] Start import inherited group changes
+[VERBOSE] [2023-04-12T14:40:16.991Z] Start import custom groups and all controls
+[VERBOSE] [2023-04-12T14:40:16.991Z] Begin step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'Agile.Task.Task''.
+[VERBOSE] [2023-04-12T14:40:17.064Z] Finished step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'Agile.Task.Task''.
+[VERBOSE] [2023-04-12T14:40:17.064Z] Begin step 'Get layout on target process for work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:40:17.156Z] Finished step 'Get layout on target process for work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:40:17.156Z] Begin step 'Edit 'Agile.User Story.User Story' page in ADLP-Software-delivery.UserStory'.
+[VERBOSE] [2023-04-12T14:40:17.249Z] Finished step 'Edit 'Agile.User Story.User Story' page in ADLP-Software-delivery.UserStory'.
+[VERBOSE] [2023-04-12T14:40:17.250Z] Start import inherited group changes
+[VERBOSE] [2023-04-12T14:40:17.250Z] Start import custom groups and all controls
+[VERBOSE] [2023-04-12T14:40:17.250Z] Begin step 'Edit control 'Microsoft.VSTS.Scheduling.StoryPoints' in group 'Agile.User Story.User Story.Planning' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:17.405Z] Finished step 'Edit control 'Microsoft.VSTS.Scheduling.StoryPoints' in group 'Agile.User Story.User Story.Planning' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:17.405Z] Begin step 'Edit control 'Microsoft.VSTS.Common.Priority' in group 'Agile.User Story.User Story.Planning' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:17.475Z] Finished step 'Edit control 'Microsoft.VSTS.Common.Priority' in group 'Agile.User Story.User Story.Planning' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:17.475Z] Begin step 'Edit control 'Microsoft.VSTS.Common.Risk' in group 'Agile.User Story.User Story.Planning' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:17.554Z] Finished step 'Edit control 'Microsoft.VSTS.Common.Risk' in group 'Agile.User Story.User Story.Planning' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:17.554Z] Begin step 'Edit control 'Microsoft.VSTS.Common.ValueArea' in group 'Agile.User Story.User Story.Classification' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:17.671Z] Finished step 'Edit control 'Microsoft.VSTS.Common.ValueArea' in group 'Agile.User Story.User Story.Classification' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:17.671Z] Begin step 'Create control 'Custom.Prioritisation' in group 'Agile.User Story.User Story.Classification' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:17.776Z] Finished step 'Create control 'Custom.Prioritisation' in group 'Agile.User Story.User Story.Classification' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:17.776Z] Begin step 'Create control 'Custom.BlockedRootCause' in group 'Agile.User Story.User Story.Classification' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:17.858Z] Finished step 'Create control 'Custom.BlockedRootCause' in group 'Agile.User Story.User Story.Classification' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:17.858Z] Begin step 'Create control 'Custom.RiskLevel' in group 'Agile.User Story.User Story.Classification' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:17.938Z] Finished step 'Create control 'Custom.RiskLevel' in group 'Agile.User Story.User Story.Classification' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:17.938Z] Begin step 'Create control 'Custom.ReflectedWorkItemId' in group 'Agile.User Story.User Story.Classification' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:18.007Z] Finished step 'Create control 'Custom.ReflectedWorkItemId' in group 'Agile.User Story.User Story.Classification' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:18.007Z] Begin step 'Create control '7f9dabbe-1602-4c94-98e4-22718d965da2' in group 'Agile.User Story.User Story.Classification' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:18.090Z] Finished step 'Create control '7f9dabbe-1602-4c94-98e4-22718d965da2' in group 'Agile.User Story.User Story.Classification' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:18.090Z] Begin step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'Agile.User Story.User Story''.
+[VERBOSE] [2023-04-12T14:40:18.422Z] Finished step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'Agile.User Story.User Story''.
+[VERBOSE] [2023-04-12T14:40:18.422Z] Begin step 'Create group 'c3c031d3-9fed-41d7-86d7-c9b369898824' in page 'Agile.User Story.User Story''.
+[VERBOSE] [2023-04-12T14:40:18.510Z] Finished step 'Create group 'c3c031d3-9fed-41d7-86d7-c9b369898824' in page 'Agile.User Story.User Story''.
+[VERBOSE] [2023-04-12T14:40:18.510Z] Begin step 'Create control 'Custom.PairedWith1' in group '502cc3a0-0c3e-4837-8155-b9f3c3b46888' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:18.587Z] Finished step 'Create control 'Custom.PairedWith1' in group '502cc3a0-0c3e-4837-8155-b9f3c3b46888' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:18.587Z] Begin step 'Create control 'Custom.PairedWith2' in group '502cc3a0-0c3e-4837-8155-b9f3c3b46888' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:18.676Z] Finished step 'Create control 'Custom.PairedWith2' in group '502cc3a0-0c3e-4837-8155-b9f3c3b46888' in page 'Agile.User Story.User Story' in work item type 'ADLP-Software-delivery.UserStory'.'.
+[VERBOSE] [2023-04-12T14:40:18.677Z] Begin step 'Get layout on target process for work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:18.714Z] Finished step 'Get layout on target process for work item type 'ADLP-Software-delivery.Bug''.
+[VERBOSE] [2023-04-12T14:40:18.715Z] Begin step 'Edit 'Agile.Bug.Bug' page in ADLP-Software-delivery.Bug'.
+[VERBOSE] [2023-04-12T14:40:18.778Z] Finished step 'Edit 'Agile.Bug.Bug' page in ADLP-Software-delivery.Bug'.
+[VERBOSE] [2023-04-12T14:40:18.778Z] Start import inherited group changes
+[VERBOSE] [2023-04-12T14:40:18.779Z] Start import custom groups and all controls
+[VERBOSE] [2023-04-12T14:40:18.779Z] Begin step 'Create group '82bba1e1-b1ab-49ca-82c5-6d18c6477fab' in page 'Agile.Bug.Bug''.
+[VERBOSE] [2023-04-12T14:40:18.861Z] Finished step 'Create group '82bba1e1-b1ab-49ca-82c5-6d18c6477fab' in page 'Agile.Bug.Bug''.
+[VERBOSE] [2023-04-12T14:40:18.862Z] Begin step 'Create group 'b3e60ba8-7cf3-4bd8-be56-5efda8cb80ce' in page 'Agile.Bug.Bug''.
+[VERBOSE] [2023-04-12T14:40:19.149Z] Finished step 'Create group 'b3e60ba8-7cf3-4bd8-be56-5efda8cb80ce' in page 'Agile.Bug.Bug''.
+[VERBOSE] [2023-04-12T14:40:19.150Z] Begin step 'Edit control 'Microsoft.VSTS.Common.ResolvedReason' in group 'Agile.Bug.Bug.Planning' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:19.226Z] Finished step 'Edit control 'Microsoft.VSTS.Common.ResolvedReason' in group 'Agile.Bug.Bug.Planning' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:19.226Z] Begin step 'Edit control 'Microsoft.VSTS.Scheduling.StoryPoints' in group 'Agile.Bug.Bug.Planning' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:19.305Z] Finished step 'Edit control 'Microsoft.VSTS.Scheduling.StoryPoints' in group 'Agile.Bug.Bug.Planning' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:19.305Z] Begin step 'Edit control 'Microsoft.VSTS.Common.Priority' in group 'Agile.Bug.Bug.Planning' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:19.374Z] Finished step 'Edit control 'Microsoft.VSTS.Common.Priority' in group 'Agile.Bug.Bug.Planning' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:19.374Z] Begin step 'Edit control 'Microsoft.VSTS.Common.Severity' in group 'Agile.Bug.Bug.Planning' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:19.508Z] Finished step 'Edit control 'Microsoft.VSTS.Common.Severity' in group 'Agile.Bug.Bug.Planning' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:19.509Z] Begin step 'Edit control 'Microsoft.VSTS.Common.Activity' in group 'Agile.Bug.Bug.Planning' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:19.587Z] Finished step 'Edit control 'Microsoft.VSTS.Common.Activity' in group 'Agile.Bug.Bug.Planning' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:19.588Z] Begin step 'Edit control 'Microsoft.VSTS.Scheduling.OriginalEstimate' in group 'Agile.Bug.Bug.Effort (Hours)' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:19.667Z] Finished step 'Edit control 'Microsoft.VSTS.Scheduling.OriginalEstimate' in group 'Agile.Bug.Bug.Effort (Hours)' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:19.667Z] Begin step 'Edit control 'Microsoft.VSTS.Scheduling.RemainingWork' in group 'Agile.Bug.Bug.Effort (Hours)' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:19.761Z] Finished step 'Edit control 'Microsoft.VSTS.Scheduling.RemainingWork' in group 'Agile.Bug.Bug.Effort (Hours)' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:19.761Z] Begin step 'Edit control 'Microsoft.VSTS.Scheduling.CompletedWork' in group 'Agile.Bug.Bug.Effort (Hours)' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:19.837Z] Finished step 'Edit control 'Microsoft.VSTS.Scheduling.CompletedWork' in group 'Agile.Bug.Bug.Effort (Hours)' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:19.838Z] Begin step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'Agile.Bug.Bug''.
+[VERBOSE] [2023-04-12T14:40:19.931Z] Finished step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'Agile.Bug.Bug''.
+[VERBOSE] [2023-04-12T14:40:19.932Z] Begin step 'Create group '993329b7-29b1-47f4-9695-1bb0b20775c4' in page 'Agile.Bug.Bug''.
+[VERBOSE] [2023-04-12T14:40:20.029Z] Finished step 'Create group '993329b7-29b1-47f4-9695-1bb0b20775c4' in page 'Agile.Bug.Bug''.
+[VERBOSE] [2023-04-12T14:40:20.029Z] Begin step 'Create control 'Custom.Prioritisation' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.111Z] Finished step 'Create control 'Custom.Prioritisation' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.111Z] Begin step 'Create control 'Custom.BlockedRootCause' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.183Z] Finished step 'Create control 'Custom.BlockedRootCause' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.184Z] Begin step 'Create control 'Custom.RootSource' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.262Z] Finished step 'Create control 'Custom.RootSource' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.263Z] Begin step 'Create control 'Custom.RootCause' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.340Z] Finished step 'Create control 'Custom.RootCause' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.340Z] Begin step 'Create control 'Custom.TestingPhase' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.424Z] Finished step 'Create control 'Custom.TestingPhase' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.424Z] Begin step 'Create control 'Custom.DetectedonEnvironment' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.518Z] Finished step 'Create control 'Custom.DetectedonEnvironment' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.518Z] Begin step 'Create control 'Microsoft.VSTS.Common.Severity' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.663Z] Finished step 'Create control 'Microsoft.VSTS.Common.Severity' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.664Z] Begin step 'Create control 'Custom.ReflectedWorkItemId' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.735Z] Finished step 'Create control 'Custom.ReflectedWorkItemId' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.735Z] Begin step 'Create control 'Custom.322da551-0c2d-43f8-a77f-4e9bc60169a2' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.815Z] Finished step 'Create control 'Custom.322da551-0c2d-43f8-a77f-4e9bc60169a2' in group '245a8856-f749-4c93-ab54-c9898fb43502' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.815Z] Begin step 'Create group 'd9d20008-bec6-4220-979d-f59810bf0d13' in page 'Agile.Bug.Bug''.
+[VERBOSE] [2023-04-12T14:40:20.882Z] Finished step 'Create group 'd9d20008-bec6-4220-979d-f59810bf0d13' in page 'Agile.Bug.Bug''.
+[VERBOSE] [2023-04-12T14:40:20.883Z] Begin step 'Create control 'Custom.PairedWith1' in group 'c54b06b4-a939-4780-b3c3-6444ad26863e' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.958Z] Finished step 'Create control 'Custom.PairedWith1' in group 'c54b06b4-a939-4780-b3c3-6444ad26863e' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:20.961Z] Begin step 'Create control 'Custom.PairedWith2' in group 'c54b06b4-a939-4780-b3c3-6444ad26863e' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:21.207Z] Finished step 'Create control 'Custom.PairedWith2' in group 'c54b06b4-a939-4780-b3c3-6444ad26863e' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:21.207Z] Begin step 'Edit control 'Microsoft.VSTS.Build.FoundIn' in group 'Agile.Bug.Bug.System Info' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:21.287Z] Finished step 'Edit control 'Microsoft.VSTS.Build.FoundIn' in group 'Agile.Bug.Bug.System Info' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:21.287Z] Begin step 'Edit control 'Microsoft.VSTS.Build.IntegrationBuild' in group 'Agile.Bug.Bug.System Info' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:21.368Z] Finished step 'Edit control 'Microsoft.VSTS.Build.IntegrationBuild' in group 'Agile.Bug.Bug.System Info' in page 'Agile.Bug.Bug' in work item type 'ADLP-Software-delivery.Bug'.'.
+[VERBOSE] [2023-04-12T14:40:21.368Z] Begin step 'Get layout on target process for work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:40:21.407Z] Finished step 'Get layout on target process for work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:40:21.407Z] Begin step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in FUSE-Software-Delivery.ProductBacklogItem'.
+[VERBOSE] [2023-04-12T14:40:21.680Z] Finished step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in FUSE-Software-Delivery.ProductBacklogItem'.
+[VERBOSE] [2023-04-12T14:40:21.681Z] Start import inherited group changes
+[VERBOSE] [2023-04-12T14:40:21.681Z] Start import custom groups and all controls
+[VERBOSE] [2023-04-12T14:40:21.681Z] Begin step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:21.755Z] Finished step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:21.755Z] Begin step 'Get layout on target process for work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:40:21.812Z] Finished step 'Get layout on target process for work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:40:21.812Z] Begin step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in ADLP-Software-delivery.Improvement'.
+[VERBOSE] [2023-04-12T14:40:22.336Z] Finished step 'Edit 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' page in ADLP-Software-delivery.Improvement'.
+[VERBOSE] [2023-04-12T14:40:22.336Z] Start import inherited group changes
+[VERBOSE] [2023-04-12T14:40:22.336Z] Start import custom groups and all controls
+[VERBOSE] [2023-04-12T14:40:22.336Z] Begin step 'Create group 'a82037c9-a6e3-42c9-b954-e43b10a0c65b' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:22.680Z] Finished step 'Create group 'a82037c9-a6e3-42c9-b954-e43b10a0c65b' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:22.680Z] Begin step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:22.756Z] Finished step 'Create group 'agile-extensions.personas.personas-work-item-form-group' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:22.756Z] Begin step 'Create group 'c6881537-7a69-45d5-bc74-855478acf0bf' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:22.956Z] Finished step 'Create group 'c6881537-7a69-45d5-bc74-855478acf0bf' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:22.956Z] Begin step 'Create control 'Custom.Prioritisation' in group 'c0effbb6-7925-4ad5-9d36-4e85e5e16216' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Improvement'.'.
+[VERBOSE] [2023-04-12T14:40:23.033Z] Finished step 'Create control 'Custom.Prioritisation' in group 'c0effbb6-7925-4ad5-9d36-4e85e5e16216' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Improvement'.'.
+[VERBOSE] [2023-04-12T14:40:23.034Z] Begin step 'Create control 'Custom.BlockedRootCause' in group 'c0effbb6-7925-4ad5-9d36-4e85e5e16216' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Improvement'.'.
+[VERBOSE] [2023-04-12T14:40:23.174Z] Finished step 'Create control 'Custom.BlockedRootCause' in group 'c0effbb6-7925-4ad5-9d36-4e85e5e16216' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Improvement'.'.
+[VERBOSE] [2023-04-12T14:40:23.174Z] Begin step 'Create control 'Custom.RiskLevel' in group 'c0effbb6-7925-4ad5-9d36-4e85e5e16216' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Improvement'.'.
+[VERBOSE] [2023-04-12T14:40:23.477Z] Finished step 'Create control 'Custom.RiskLevel' in group 'c0effbb6-7925-4ad5-9d36-4e85e5e16216' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Improvement'.'.
+[VERBOSE] [2023-04-12T14:40:23.477Z] Begin step 'Create group '1a8b1e96-d00d-4c88-9c7d-5c7d010346dc' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:23.546Z] Finished step 'Create group '1a8b1e96-d00d-4c88-9c7d-5c7d010346dc' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details''.
+[VERBOSE] [2023-04-12T14:40:23.546Z] Begin step 'Create control 'Custom.PairedWith1' in group '9b8f3886-d089-45bd-8ea3-f79e9e4ab612' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Improvement'.'.
+[VERBOSE] [2023-04-12T14:40:23.691Z] Finished step 'Create control 'Custom.PairedWith1' in group '9b8f3886-d089-45bd-8ea3-f79e9e4ab612' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Improvement'.'.
+[VERBOSE] [2023-04-12T14:40:23.691Z] Begin step 'Create control 'Custom.PairedWith2' in group '9b8f3886-d089-45bd-8ea3-f79e9e4ab612' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Improvement'.'.
+[VERBOSE] [2023-04-12T14:40:23.778Z] Finished step 'Create control 'Custom.PairedWith2' in group '9b8f3886-d089-45bd-8ea3-f79e9e4ab612' in page 'd0171d51-ff84-4038-afc1-8800ab613160.System.WorkItemType.Details' in work item type 'ADLP-Software-delivery.Improvement'.'.
+[VERBOSE] [2023-04-12T14:40:23.778Z] Finished step 'Import work item form layouts on target process'.
+[VERBOSE] [2023-04-12T14:40:23.778Z] Begin step 'Import states on target process'.
+[VERBOSE] [2023-04-12T14:40:23.779Z] Begin step 'Get states on target process for work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:40:23.973Z] Finished step 'Get states on target process for work item type 'FUSE-Software-Delivery.Risk''.
+[VERBOSE] [2023-04-12T14:40:23.973Z] Begin step 'Get states on target process for work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:40:24.019Z] Finished step 'Get states on target process for work item type 'ADLP-Software-delivery.Improvement''.
+[VERBOSE] [2023-04-12T14:40:24.019Z] Begin step 'Create state 'Approved' in 'ADLP-Software-delivery.Improvement' work item type'.
+[VERBOSE] [2023-04-12T14:40:24.241Z] Finished step 'Create state 'Approved' in 'ADLP-Software-delivery.Improvement' work item type'.
+[VERBOSE] [2023-04-12T14:40:24.242Z] Begin step 'Create state 'Resolved' in 'ADLP-Software-delivery.Improvement' work item type'.
+[VERBOSE] [2023-04-12T14:40:24.345Z] Finished step 'Create state 'Resolved' in 'ADLP-Software-delivery.Improvement' work item type'.
+[VERBOSE] [2023-04-12T14:40:24.346Z] Begin step 'Create state 'Removed' in 'ADLP-Software-delivery.Improvement' work item type'.
+[VERBOSE] [2023-04-12T14:40:24.450Z] Finished step 'Create state 'Removed' in 'ADLP-Software-delivery.Improvement' work item type'.
+[VERBOSE] [2023-04-12T14:40:24.450Z] Begin step 'Get states on target process for work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:40:24.560Z] Finished step 'Get states on target process for work item type 'ADLP-Software-delivery.UserStory''.
+[VERBOSE] [2023-04-12T14:40:24.561Z] Begin step 'Create state 'Approved' in 'ADLP-Software-delivery.UserStory' work item type'.
+[VERBOSE] [2023-04-12T14:40:24.647Z] Finished step 'Create state 'Approved' in 'ADLP-Software-delivery.UserStory' work item type'.
+[VERBOSE] [2023-04-12T14:40:24.647Z] Begin step 'Delete state 'New' in 'ADLP-Software-delivery.UserStory' work item type'.
+[VERBOSE] [2023-04-12T14:40:24.728Z] Finished step 'Delete state 'New' in 'ADLP-Software-delivery.UserStory' work item type'.
+[VERBOSE] [2023-04-12T14:40:24.728Z] Begin step 'Delete state 'Active' in 'ADLP-Software-delivery.UserStory' work item type'.
+[VERBOSE] [2023-04-12T14:40:24.795Z] Finished step 'Delete state 'Active' in 'ADLP-Software-delivery.UserStory' work item type'.
+[VERBOSE] [2023-04-12T14:40:24.795Z] Begin step 'Delete state 'Resolved' in 'ADLP-Software-delivery.UserStory' work item type'.
+[VERBOSE] [2023-04-12T14:40:24.873Z] Finished step 'Delete state 'Resolved' in 'ADLP-Software-delivery.UserStory' work item type'.
+[VERBOSE] [2023-04-12T14:40:24.873Z] Begin step 'Delete state 'Closed' in 'ADLP-Software-delivery.UserStory' work item type'.
+[VERBOSE] [2023-04-12T14:40:24.974Z] Finished step 'Delete state 'Closed' in 'ADLP-Software-delivery.UserStory' work item type'.
+[VERBOSE] [2023-04-12T14:40:24.974Z] Begin step 'Delete state 'Removed' in 'ADLP-Software-delivery.UserStory' work item type'.
+[VERBOSE] [2023-04-12T14:40:25.084Z] Finished step 'Delete state 'Removed' in 'ADLP-Software-delivery.UserStory' work item type'.
+[VERBOSE] [2023-04-12T14:40:25.084Z] Begin step 'Get states on target process for work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:40:25.125Z] Finished step 'Get states on target process for work item type 'ADLP-Software-delivery.KeyResult''.
+[VERBOSE] [2023-04-12T14:40:25.126Z] Begin step 'Create state 'Removed' in 'ADLP-Software-delivery.KeyResult' work item type'.
+[VERBOSE] [2023-04-12T14:40:25.219Z] Finished step 'Create state 'Removed' in 'ADLP-Software-delivery.KeyResult' work item type'.
+[VERBOSE] [2023-04-12T14:40:25.220Z] Begin step 'Get states on target process for work item type 'ADLP-Software-delivery.Issue''.
+[VERBOSE] [2023-04-12T14:40:25.266Z] Finished step 'Get states on target process for work item type 'ADLP-Software-delivery.Issue''.
+[VERBOSE] [2023-04-12T14:40:25.266Z] Begin step 'Delete state 'Active' in 'ADLP-Software-delivery.Issue' work item type'.
+[VERBOSE] [2023-04-12T14:40:25.340Z] Finished step 'Delete state 'Active' in 'ADLP-Software-delivery.Issue' work item type'.
+[VERBOSE] [2023-04-12T14:40:25.340Z] Begin step 'Delete state 'Closed' in 'ADLP-Software-delivery.Issue' work item type'.
+[VERBOSE] [2023-04-12T14:40:25.438Z] Finished step 'Delete state 'Closed' in 'ADLP-Software-delivery.Issue' work item type'.
+[VERBOSE] [2023-04-12T14:40:25.439Z] Begin step 'Get states on target process for work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:40:25.471Z] Finished step 'Get states on target process for work item type 'FUSE-Software-Delivery.ProductBacklogItem''.
+[VERBOSE] [2023-04-12T14:40:25.471Z] Begin step 'Get states on target process for work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:40:25.509Z] Finished step 'Get states on target process for work item type 'ADLP-Software-Delivery.Engagement''.
+[VERBOSE] [2023-04-12T14:40:25.509Z] Begin step 'Create state 'Removed' in 'ADLP-Software-Delivery.Engagement' work item type'.
+[VERBOSE] [2023-04-12T14:40:25.606Z] Finished step 'Create state 'Removed' in 'ADLP-Software-Delivery.Engagement' work item type'.
+[VERBOSE] [2023-04-12T14:40:25.606Z] Begin step 'Get states on target process for work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:25.645Z] Finished step 'Get states on target process for work item type 'ADLP-Software-delivery.Objective''.
+[VERBOSE] [2023-04-12T14:40:25.645Z] Begin step 'Create state 'Committed' in 'ADLP-Software-delivery.Objective' work item type'.
+[VERBOSE] [2023-04-12T14:40:25.743Z] Finished step 'Create state 'Committed' in 'ADLP-Software-delivery.Objective' work item type'.
+[VERBOSE] [2023-04-12T14:40:25.743Z] Begin step 'Create state 'Done' in 'ADLP-Software-delivery.Objective' work item type'.
+[VERBOSE] [2023-04-12T14:40:25.935Z] Exception message:VS403093: Team Services currently does not support changes to 'Completed' category. Choose a different category.
+Call stack:Error: VS403093: Team Services currently does not support changes to 'Completed' category. Choose a different category.
+    at RestClient.<anonymous> (/workspaces/process-migrator/node_modules/azure-devops-node-api/node_modules/typed-rest-client/RestClient.js:173:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/workspaces/process-migrator/node_modules/azure-devops-node-api/node_modules/typed-rest-client/RestClient.js:6:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[ERROR] [2023-04-12T14:40:25.936Z] Import failed, see log file for details. Unable to create/hide/update state 'Done' in 'ADLP-Software-delivery.Objective' work item type, see logs for details
