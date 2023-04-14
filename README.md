@@ -57,7 +57,6 @@ NOTE: This only works with 'Inherited Process', for 'XML process' you may upload
 ### Run commands for linux VM or GitHub Codepaces
 ```bash
 npm run build
-node /workspaces/process-migrator/build/NodeJs/nodejs/Main.js -c /workspaces/process-migrator/configuration.json
 node ./build/NodeJs/nodejs/Main.js --config=./configuration.json
 
 ```
